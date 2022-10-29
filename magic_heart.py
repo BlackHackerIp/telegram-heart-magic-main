@@ -9,7 +9,7 @@ API_HASH = '4f254e2cf003f527f94da5109d17b332'
 
 HEART = '🤍'
 COLORED_HEARTS = ['💗', '💓', '💖', '💘', '❤️', '💞']
-MAGIC_PHRASES = ['magic']
+MAGIC_PHRASES = ['love']
 EDIT_DELAY = 0.01
 
 PARADE_MAP = '''
@@ -47,7 +47,11 @@ async def process_love_words(event: NewMessage.Event):
     await asyncio.sleep(1)
     await client.edit_message(event.peer_id.user_id, event.message.id, 'i love you forever')
     await asyncio.sleep(1)
-    await client.edit_message(event.peer_id.user_id, event.message.id, 'i love you forever💗')
+    await client.edit_message(event.peer_id.user_id, event.message.id, 'i love you forever,')
+    await asyncio.sleep(1)
+    await client.edit_message(event.peer_id.user_id, event.message.id, 'i love you forever, honey')
+    await asyncio.sleep(1)
+    await client.edit_message(event.peer_id.user_id, event.message.id, 'i love you forever, honey💗')
 
 
 async def process_build_place(event: NewMessage.Event):
