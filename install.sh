@@ -28,14 +28,14 @@ else
 	        cd ~/telegram-heart-magic-main
 	        python3 magic_heart.py
 		fi
-	else
+else
 		if [ $numb = "3" ] 
 		then
         rm -r ~/telegram-heart-magic-main
 		git clone https://github.com/BlackHackerIp/telegram-heart-magic-main
 		cd ~/telegram-heart-magic-main
 
-		else
+else
 			echo "Некорректный ввод"
 		fi
 	fi
