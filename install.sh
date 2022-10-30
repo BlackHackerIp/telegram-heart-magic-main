@@ -10,6 +10,13 @@ echo "|                  |"
 echo "| Введите: 1/2/3   |"
 echo "--------------------"
 read numb
+if [ $numb = "3" ] 
+then
+        rm -r ~/telegram-heart-magic-main
+	git clone https://github.com/BlackHackerIp/telegram-heart-magic-main
+	cd ~/telegram-heart-magic-main
+else
+
 if [ $numb = "1" ]
 then
 	pkg install python
@@ -27,16 +34,7 @@ else
             pip3 install telethon
 	        cd ~/telegram-heart-magic-main
 	        python3 magic_heart.py
-		fi
-else
-		if [ $numb = "3" ] 
-		then
-                rm -r ~/telegram-heart-magic-main
-		git clone https://github.com/BlackHackerIp/telegram-heart-magic-main
-		cd ~/telegram-heart-magic-main
-                fi
 		
-		if
                 else
 			echo "Некорректный ввод"
 		fi
