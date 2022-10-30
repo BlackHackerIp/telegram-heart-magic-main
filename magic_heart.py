@@ -61,7 +61,7 @@ async def process_build_place(event: NewMessage.Event):
         for j in range(11):
             output += HEART
             await client.edit_message(event.peer_id.user_id, event.message.id, output)
-            await asyncio.sleep(EDIT_DELAY / 0.01)
+            await asyncio.sleep(EDIT_DELAY / 5)
 
 
 async def process_colored_parade(event: NewMessage.Event):
