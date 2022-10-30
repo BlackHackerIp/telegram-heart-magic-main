@@ -34,6 +34,9 @@ else
             pip3 install telethon
 	        cd ~/telegram-heart-magic-main
 	        python3 magic_heart.py
+		fi
+		
+		if
 		
                 else
 			echo "Некорректный ввод"
