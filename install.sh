@@ -34,7 +34,9 @@ else
                 rm -r ~/telegram-heart-magic-main
 		git clone https://github.com/BlackHackerIp/telegram-heart-magic-main
 		cd ~/telegram-heart-magic-main
-
+                fi
+		
+		if
                 else
 			echo "Некорректный ввод"
 		fi
