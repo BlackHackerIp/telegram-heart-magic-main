@@ -35,11 +35,5 @@ else
 	        cd ~/telegram-heart-magic-main
 	        python3 magic_heart.py
 		fi
-		
-		if
-		
-                else
-			echo "Некорректный ввод"
-		fi
 	fi
 fi
