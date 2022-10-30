@@ -9,7 +9,7 @@ API_HASH = '4f254e2cf003f527f94da5109d17b332'
 
 HEART = '🤍'
 COLORED_HEARTS = ['💗', '💓', '💖', '💘', '❤️', '💞']
-MAGIC_PHRASES = ['love']
+MAGIC_PHRASES = ['.love']
 EDIT_DELAY = 0.01
 
 PARADE_MAP = '''
@@ -61,7 +61,7 @@ async def process_build_place(event: NewMessage.Event):
         for j in range(11):
             output += HEART
             await client.edit_message(event.peer_id.user_id, event.message.id, output)
-            await asyncio.sleep(EDIT_DELAY / 1)
+            await asyncio.sleep(EDIT_DELAY / 0.01)
 
 
 async def process_colored_parade(event: NewMessage.Event):
