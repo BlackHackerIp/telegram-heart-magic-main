@@ -82,5 +82,6 @@ async def handle_message(event: NewMessage.Event):
 
 if __name__ == '__main__':
     print('[*] Connect to client...')
+    print('[*] Please, Wait')
     client.start()
     client.run_until_disconnected()
