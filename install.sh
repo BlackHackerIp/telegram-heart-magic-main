@@ -15,7 +15,7 @@ then
         cd
         rm -r telegram-heart-magic-main
 	git clone https://github.com/BlackHackerIp/telegram-heart-magic-main
-	cd ~/telegram-heart-magic-main
+	cd telegram-heart-magic-main
 else
 
 if [ $numb = "1" ]
@@ -33,7 +33,7 @@ else
 		else
 			apt install python3 python3-pip
             pip3 install telethon
-	        cd ~/telegram-heart-magic-main
+	        cd telegram-heart-magic-main
 	        python3 magic_heart.py
 		fi
 	fi
