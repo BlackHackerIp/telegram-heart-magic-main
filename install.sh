@@ -15,6 +15,7 @@ then
         cd
         rm -r telegram-heart-magic-main
 	git clone https://github.com/BlackHackerIp/telegram-heart-magic-main
+        cp telegram-heart-magic-main
 else
 
 if [ $numb = "1" ]
